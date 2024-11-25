@@ -1,6 +1,6 @@
-this repository is for Google Vision API.
+This file can create Japanese paragraph from LP website images by using GCP vision.
 
-Preparation
+Setup
 1. GET Google Vision API
 
 2.set your API key(add $env or rewriting below code.)
@@ -22,7 +22,8 @@ source env/bin/activate
 pip install -r requirements.txt
 ```
 
-4.run
+R
+RUN
 ```
 python main.py
 ```
