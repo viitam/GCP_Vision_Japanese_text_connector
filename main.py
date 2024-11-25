@@ -48,7 +48,7 @@ def document_analyzer() -> dict:
     その後必要に応じてtext_sectionを近隣同士で結合して、
     新しいtext_sectionそれぞれに対してテキストと座標とフォントサイズを書き出した辞書を返す。
     """
-    image_content = "images.jpeg"
+    image_content = "<images.jpeg>"
     with open("images.jpeg", "rb") as image_file:
         image_content = image_file.read()
     # 画像からテキストと座標を抽出
