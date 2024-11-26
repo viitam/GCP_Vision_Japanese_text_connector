@@ -1,4 +1,8 @@
-This file can create Japanese paragraph from LP website images by using GCP vision.
+広告、チラシやLPサイトの画像からテキストを段落毎に結合するファイルです。（試作品）
+座標情報も併せてappendするので、段落にハッチングしたいなどの処理にお使いいただければと思います。
+
+This file can create Japanese paragraph with bounding_poly from LP website, ad. images by using GCP vision.
+
 
 Setup
 1. GET Google Vision API
